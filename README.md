@@ -3,47 +3,47 @@ Bu proje, DTMF (Dual-Tone Multi-Frequency) sistemini kullanarak telefon tuş ses
 
 -- Projenin Amacı
 
-Her tuşa karşılık gelen iki sinüzoidal frekansın üretilmesi
-
-Bu frekansların toplanarak DTMF sinyalinin elde edilmesi
-
-Üretilen sinyalin zaman domaininde görselleştirilmesi
-
-FFT kullanılarak frekans domaininde analiz edilmesi
-
-Sinyalin hoparlörden çalınması
+    Her tuşa karşılık gelen iki sinüzoidal frekansın üretilmesi
+    
+    Bu frekansların toplanarak DTMF sinyalinin elde edilmesi
+    
+    Üretilen sinyalin zaman domaininde görselleştirilmesi
+    
+    FFT kullanılarak frekans domaininde analiz edilmesi
+    
+    Sinyalin hoparlörden çalınması
 
 -- Matematiksel Model
 
-DTMF sinyali aşağıdaki formül ile üretilmiştir:
-
-x(t) = sin(2πf_low t) + sin(2πf_high t)
-
-Örnekleme frekansı:
-fs = 8000 Hz
-
-Sinyal süresi:
-T = 0.3 saniye
-
-Toplam örnek sayısı:
-N = fs × T = 2400
+    DTMF sinyali aşağıdaki formül ile üretilmiştir:
+    
+    x(t) = sin(2πf_low t) + sin(2πf_high t)
+    
+    Örnekleme frekansı:
+    fs = 8000 Hz
+    
+    Sinyal süresi:
+    T = 0.3 saniye
+    
+    Toplam örnek sayısı:
+    N = fs × T = 2400
 
 -- Kullanılan Teknolojiler
 
-Python
-
-NumPy
-
-Matplotlib
-
-SoundDevice
-
-Tkinter
+    * Python
+    
+    * NumPy
+    
+    * Matplotlib
+    
+    * SoundDevice
+    
+    * Tkinter
 
 --Özellikler
 
-* İnteraktif telefon tuş takımı
-* Gerçek zamanlı DTMF üretimi
-* Zaman domain grafiği
-* FFT frekans analizi
-* Hoparlörden ses çıkışı
+    * İnteraktif telefon tuş takımı
+    * Gerçek zamanlı DTMF üretimi
+    * Zaman domain grafiği
+    * FFT frekans analizi
+    * Hoparlörden ses çıkışı
