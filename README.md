@@ -50,12 +50,15 @@ Bu proje, DTMF (Dual-Tone Multi-Frequency) sistemini kullanarak telefon tuş ses
 
 -- Kurulum ve Çalıştırma Talimatları
 
-    1️⃣ Depoyu Klonlayın
+1️⃣ Depoyu Klonlayın
+    
         git clone https://github.com/yagizcaglarer/dtmf-signal-synthesis.git
         cd dtmf-signal-synthesis
             
-    2️⃣ Gerekli Kütüphaneleri Yükleyin
+2️⃣ Gerekli Kütüphaneleri Yükleyin
+    
         pip install -r requirements.txt
             
-    3️⃣ Programı Çalıştırın
+3️⃣ Programı Çalıştırın
+    
         python dtmf.py
