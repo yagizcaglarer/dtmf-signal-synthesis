@@ -1,2 +1,49 @@
 # dtmf-signal-synthesis
-Python ile geliştirilmiş DTMF (Dual-Tone Multi-Frequency) sinyal sentezi ve interaktif telefon tuş takımı uygulaması. Zaman ve frekans domaini analizleri içerir.
+Bu proje, DTMF (Dual-Tone Multi-Frequency) sistemini kullanarak telefon tuş seslerinin Python ortamında üretilmesini amaçlamaktadır.
+
+-- Projenin Amacı
+
+Her tuşa karşılık gelen iki sinüzoidal frekansın üretilmesi
+
+Bu frekansların toplanarak DTMF sinyalinin elde edilmesi
+
+Üretilen sinyalin zaman domaininde görselleştirilmesi
+
+FFT kullanılarak frekans domaininde analiz edilmesi
+
+Sinyalin hoparlörden çalınması
+
+-- Matematiksel Model
+
+DTMF sinyali aşağıdaki formül ile üretilmiştir:
+
+x(t) = sin(2πf_low t) + sin(2πf_high t)
+
+Örnekleme frekansı:
+fs = 8000 Hz
+
+Sinyal süresi:
+T = 0.3 saniye
+
+Toplam örnek sayısı:
+N = fs × T = 2400
+
+-- Kullanılan Teknolojiler
+
+Python
+
+NumPy
+
+Matplotlib
+
+SoundDevice
+
+Tkinter
+
+--Özellikler
+
+* İnteraktif telefon tuş takımı
+* Gerçek zamanlı DTMF üretimi
+* Zaman domain grafiği
+* FFT frekans analizi
+* Hoparlörden ses çıkışı
