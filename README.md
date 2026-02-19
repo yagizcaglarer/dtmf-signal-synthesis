@@ -40,10 +40,22 @@ Bu proje, DTMF (Dual-Tone Multi-Frequency) sistemini kullanarak telefon tuş ses
     
     * Tkinter
 
---Özellikler
+-- Özellikler
 
     * İnteraktif telefon tuş takımı
     * Gerçek zamanlı DTMF üretimi
     * Zaman domain grafiği
     * FFT frekans analizi
     * Hoparlörden ses çıkışı
+
+-- Kurulum ve Çalıştırma Talimatları
+
+        1️⃣ Depoyu Klonlayın
+        git clone https://github.com/yagizcaglarer/dtmf-signal-synthesis.git
+        cd dtmf-signal-synthesis
+        
+        2️⃣ Gerekli Kütüphaneleri Yükleyin
+        pip install -r requirements.txt
+        
+        3️⃣ Programı Çalıştırın
+        python dtmf.py
